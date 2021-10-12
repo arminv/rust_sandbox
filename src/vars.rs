@@ -3,10 +3,10 @@
 // Rust is a block-scoped language
 
 pub fn run() {
-  let name = "Brad";
-  let mut age = 37;
+  let name = "Armin";
+  let mut age = 29;
   println!("My name is {} and I am {}", name, age);
-  age = 38;
+  age = 28;
   println!("My name is {} and I am {}", name, age);
 
   // Define constant
@@ -14,6 +14,6 @@ pub fn run() {
   println!("ID: {}", ID);
 
   // Assign multiple vars
-  let ( my_name, my_age ) = ("Brad", 37);
+  let ( my_name, my_age ) = ("Armin", 29);
   println!("{} is {}", my_name, my_age );
 }

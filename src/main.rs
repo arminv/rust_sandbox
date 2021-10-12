@@ -1,7 +1,7 @@
 // mod print;
 // mod vars;
 // mod types;
-// mod strings;
+mod strings;
 // mod tuples;
 // mod arrays;
 // mod vectors;
@@ -11,13 +11,13 @@
 // mod pointer_ref;
 // mod structs;
 // mod enums;
-mod cli;
+// mod cli;
 
 fn main() {
     // print::run();
     // vars::run();
     // types::run();
-    // strings::run();
+    strings::run();
     // tuples::run();
     // arrays::run();
     // vectors::run();
@@ -27,5 +27,5 @@ fn main() {
     // pointer_ref::run();
     // structs::run();
     // enums::run();
-    cli::run();
+    // cli::run();
 }

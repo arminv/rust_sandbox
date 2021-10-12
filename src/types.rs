@@ -30,6 +30,7 @@ pub fn run() {
   // Get boolean from expression
   let is_greater: bool = 10 < 5;
 
+  // Character (char) - note the single quotes:
   let a1 = 'a';
   let face = '\u{1F600}';
 
